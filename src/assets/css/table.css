@@ -1,0 +1,63 @@
+
+  .zzc{
+    color: #000;
+  }
+  #printTest {
+    width:1300px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -650px;
+  }
+  .content{
+    background: #fff;
+  }
+  .printTable{
+    height: 100%;
+  }
+  #print{
+    position: relative;
+    width: 1300px;
+    box-sizing: border-box;
+    padding-left:59px;
+    padding-right:59px;
+    padding-top: 40px;
+    color:red
+  }
+  .topTitle{
+    width: 99.8%;
+    height: 40px;
+    border: 1px solid #4a4a4a;
+    border-bottom: none;
+    position: relative;
+  }
+  .titlePrint{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 24px;
+    color: #4a4a4a;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+  }
+  .tableZonePrint{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width:1000px;
+    /*border: 1px solid red;*/
+  }
+  .ulPrint{
+    width: 100%;
+    /*height: 100%;*/
+    display: inline-block;
+  }
+  .tableZone{
+    width: 100%;
+  }
+  @page{
+    margin:42.2px 40px;
+  //控制是使用a4还是使用其它纸张规格
+  size:auto;
+  }
